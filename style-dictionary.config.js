@@ -1,3 +1,4 @@
+// Copyright (c) 2026 Ryan Payne. Licensed under the MIT License; see LICENSE.md at the repository root.
 /**
  * Three-tier DTCG tokens compiled to a single CSS custom-property file.
  * Values pass through verbatim (only the name is transformed to kebab-case),

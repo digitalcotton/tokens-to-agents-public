@@ -52,6 +52,10 @@ A note on single source of truth, since the site argues for exactly that. The dr
 - NotebookLM has no embeddable audio player. For each pillar, download the audio overview from the notebook, host the file in the site, and play it from a native `audio` element. The content-authoring skill covers this. It is also the more pristine option, and it survives a regenerated share link.
 - Public notebook sharing is domain-restricted on Workspace and Education accounts. The public master notebook that the hub links into must live on a personal Google account, set to "Anyone with a link."
 
+## Fonts
+
+The two type voices, N27 (human, licensed from atipo) and Triplicate Code (machine, licensed from MB Type), are licensed for this website only. Neither license permits redistribution, so the font files are excluded from this repository and it builds on the fallback stacks (`ui-sans-serif, system-ui, sans-serif` and `ui-monospace, monospace`). That exclusion is care, not omission. See `DESIGN.md` for the full type decision.
+
 ## Kickoff sequence
 
 1. Create a fresh Astro project, then drop this scaffold's files into the repository root, merging the `.claude/` and `docs/` folders.
@@ -61,3 +65,7 @@ A note on single source of truth, since the site argues for exactly that. The dr
 5. Work one screen at a time, and use the drift alarms in `AGENTS.md` to keep it from averaging to the middle.
 
 Never use em dashes or en dashes, in the code or in any copy. The skills and `AGENTS.md` restate this because it is a hard rule for this project.
+
+## License
+
+Source-available, not open source. The written work and tokens are CC BY-NC-ND 4.0, the build configuration is MIT, and the fonts are commercially licensed and excluded. See `LICENSE.md`. For permissions beyond the license: ryan@digitalcotton.com.

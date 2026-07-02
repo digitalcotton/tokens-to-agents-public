@@ -27,8 +27,13 @@ type:
     fallback: ui-sans-serif, system-ui, sans-serif
     license: licensed for this website only, not redistributable, excluded from the public repo
   machine-voice:
-    family: JetBrains Mono
+    family: Triplicate Code
+    foundry: MB Type
+    weights:
+      regular: 400
+      bold: 700
     fallback: ui-monospace, monospace
+    license: licensed for this website, not redistributable, excluded from the public repo
     consumed-as: font token only (--font-mono), never a hardcoded family
 palette:
   ramp: warm paper to cool ink, eight primitive grays
@@ -56,7 +61,7 @@ The site is true monochrome: a single grayscale ramp from a warm paper to a cool
 
 The human voice is N27, licensed from atipo. It carries the argument: prose, headlines, annotations. Weights are 400 for body, 500 for medium, and a 600 to 700 range that both resolve to Bold for display.
 
-The machine voice is JetBrains Mono. It carries everything that is, or represents, structured data: the layer numbers, token names, code, labels, metadata. It is consumed only through the font token, never as a hardcoded family, so a future swap propagates in one edit.
+The machine voice is Triplicate Code, licensed from MB Type. It carries everything that is, or represents, structured data: the layer numbers, token names, code, labels, metadata. It is consumed only through the font token, never as a hardcoded family, so a future swap propagates in one edit.
 
 There are no candidates and no alternatives in this file on purpose. Earlier drafts listed options, three files disagreed, and an agent caught the conflict mid-build. This file is the fix. One canonical answer per decision, every earlier draft superseded.
 
@@ -80,7 +85,7 @@ Semantic HTML with a single h1 per page and a skip link. Visible keyboard focus 
 
 ## Licensing note for the public repo
 
-N27 is licensed from atipo for this website. The license does not permit redistribution, so the font files are excluded from the public repository and the repo builds on the fallback stack. That exclusion is care, not omission, and it is stated in the README so nobody mistakes it for a missing asset.
+N27 is licensed from atipo for this website, and Triplicate Code is licensed from MB Type for this website. Neither license permits redistribution, so the font files are excluded from the public repository and the repo builds on the fallback stacks. That exclusion is care, not omission, and it is stated in the README so nobody mistakes it for a missing asset.
 
 ## How this file is governed
 

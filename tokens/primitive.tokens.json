@@ -34,7 +34,7 @@
   },
   "font": {
     "sans": { "$value": "'N27', ui-sans-serif, system-ui, sans-serif", "$type": "fontFamily", "$description": "The human voice." },
-    "mono": { "$value": "'JetBrains Mono', ui-monospace, monospace", "$type": "fontFamily", "$description": "The machine voice." }
+    "mono": { "$value": "'Triplicate Code', ui-monospace, monospace", "$type": "fontFamily", "$description": "The machine voice." }
   },
   "tracking": {
     "tight": { "$value": "-0.03em", "$type": "dimension" },
