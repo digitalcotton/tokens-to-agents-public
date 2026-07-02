@@ -30,13 +30,19 @@ type:
     family: Triplicate Code
     foundry: MB Type
     weights:
-      regular: 400
+      regular: 400 (shipped, unused on surfaces)
       bold: 700
+    usage: always bold; every mono surface consumes the weight.mono token (700)
+    size-adjust: 108% on both faces, so the mono x-height sits level with N27
     fallback: ui-monospace, monospace
     license: licensed for this website, not redistributable, excluded from the public repo
     consumed-as: font token only (--font-mono), never a hardcoded family
+  wordmark:
+    family: N27
+    weight: 500 (medium)
+    styling: lowercase, tokens then an arrow then agents, tight tracking, header and footer alike
 palette:
-  ramp: warm paper to cool ink, eight primitive grays
+  ramp: warm paper to cool ink, nine primitive grays
   paper: gray.050 "#F6F5F2"
   ink: gray.950 "#0B0B0D"
   tiers: primitive, semantic, component. Three only.
@@ -46,7 +52,7 @@ rules:
   - no raw hex, pixel, or font literals in markup or styles
   - no em dashes, no en dashes, anywhere, including code comments
   - honor prefers-reduced-motion with a static end state
-  - contrast holds WCAG AA; gray.600 is the muted floor for text, gray.400 is borders only
+  - contrast holds WCAG AA; gray.700 is the muted text color on paper, gray.400 is borders on paper and muted-inverse text on ink
 ---
 
 # The design, in prose
@@ -59,9 +65,9 @@ The site is true monochrome: a single grayscale ramp from a warm paper to a cool
 
 ## Two voices, one answer each
 
-The human voice is N27, licensed from atipo. It carries the argument: prose, headlines, annotations. Weights are 400 for body, 500 for medium, and a 600 to 700 range that both resolve to Bold for display.
+The human voice is N27, licensed from atipo. It carries the argument: prose, headlines, annotations. Weights are 400 for body, 500 for medium, and a 600 to 700 range that both resolve to Bold for display. The wordmark ("tokens", an arrow, "agents", all lowercase) is set in this voice at medium (500), in the header and the footer alike. Two mono-adjacent home blocks also belong to this voice by decision: the signature trail paragraph and the chain sublabels, both N27 400.
 
-The machine voice is Triplicate Code, licensed from MB Type. It carries everything that is, or represents, structured data: the layer numbers, token names, code, labels, metadata. It is consumed only through the font token, never as a hardcoded family, so a future swap propagates in one edit.
+The machine voice is Triplicate Code, licensed from MB Type. It carries everything that is, or represents, structured data: the layer numbers, token names, code, labels, metadata. It always renders bold: every mono surface consumes the weight.mono token (700), the true bold cut, never the 400. Both faces declare size-adjust 108% so the mono x-height sits level with N27 at the same size token. It is consumed only through the font token, never as a hardcoded family, so a future swap propagates in one edit.
 
 There are no candidates and no alternatives in this file on purpose. Earlier drafts listed options, three files disagreed, and an agent caught the conflict mid-build. This file is the fix. One canonical answer per decision, every earlier draft superseded.
 
@@ -81,7 +87,7 @@ Layout is left-aligned and asymmetric on generous paper, never a centered hero. 
 
 ## The floor that is not negotiable
 
-Semantic HTML with a single h1 per page and a skip link. Visible keyboard focus on every interactive element. prefers-reduced-motion honored fully, with a static end state built alongside any animated one, not after it. Contrast holds AA: gray.600 on paper is the floor for text and is not used below body size; gray.400 is a border color and never text. Copy is sentence case, uppercase only for mono eyebrows and labels, straight quotes, and no em or en dashes anywhere, including code comments. Box-drawing characters in ASCII trees are permitted; they are a different Unicode block and are not dashes.
+Semantic HTML with a single h1 per page and a skip link. Visible keyboard focus on every interactive element. prefers-reduced-motion honored fully, with a static end state built alongside any animated one, not after it. Contrast holds AA: gray.700 is the muted text color on paper and clears AA at every size in use; gray.600 no longer carries text on paper; gray.400 is a border color on paper and carries text only as muted-inverse on ink. Copy is sentence case, uppercase only for mono eyebrows and labels, straight quotes, and no em or en dashes anywhere, including code comments. Box-drawing characters in ASCII trees are permitted; they are a different Unicode block and are not dashes.
 
 ## Licensing note for the public repo
 
@@ -91,4 +97,4 @@ N27 is licensed from atipo for this website, and Triplicate Code is licensed fro
 
 This is a layer 04 file: runtime context, the intent agents execute against. It changes by decision, not by accumulation. When a decision changes, this file is edited in the same commit as the tokens it governs, the date below moves, and whatever it supersedes stays superseded. If you are an agent reading this: build to the front matter, keep every value a token reference, and when you find a conflict between this file and anything else in the repo except tokens.json, this file wins and the conflict is a bug worth reporting.
 
-Canonical as of 2026-07-01. Curated by Ryan Payne.
+Canonical as of 2026-07-02. Curated by Ryan Payne.

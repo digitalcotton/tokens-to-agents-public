@@ -5,7 +5,8 @@
     "100": { "$value": "#ECEAE5", "$type": "color", "$description": "Warm off-white, hover surface." },
     "200": { "$value": "#D8D5CE", "$type": "color", "$description": "Hairline lines." },
     "400": { "$value": "#A8A5A0", "$type": "color", "$description": "Strong line, muted on ink." },
-    "600": { "$value": "#6B6966", "$type": "color", "$description": "Muted foreground." },
+    "600": { "$value": "#6B6966", "$type": "color", "$description": "Soft gray, the former muted step." },
+    "700": { "$value": "#4A4845", "$type": "color", "$description": "Muted foreground, dark enough to carry text." },
     "800": { "$value": "#2A2A2C", "$type": "color", "$description": "Near ink." },
     "950": { "$value": "#0B0B0D", "$type": "color", "$description": "Ink, kept slightly cool on purpose." }
   },
@@ -13,6 +14,7 @@
     "050": { "$value": "0.78rem", "$type": "dimension", "$description": "Caption, fine labels." },
     "075": { "$value": "0.82rem", "$type": "dimension", "$description": "Mono labels." },
     "100": { "$value": "0.875rem", "$type": "dimension" },
+    "150": { "$value": "0.95rem", "$type": "dimension", "$description": "Sans narration, between label and body." },
     "200": { "$value": "1rem", "$type": "dimension" },
     "300": { "$value": "1.25rem", "$type": "dimension" },
     "400": { "$value": "1.625rem", "$type": "dimension" },
@@ -35,6 +37,9 @@
   "font": {
     "sans": { "$value": "'N27', ui-sans-serif, system-ui, sans-serif", "$type": "fontFamily", "$description": "The human voice." },
     "mono": { "$value": "'Triplicate Code', ui-monospace, monospace", "$type": "fontFamily", "$description": "The machine voice." }
+  },
+  "weight": {
+    "mono": { "$value": "700", "$type": "fontWeight", "$description": "The machine voice is always bold. Triplicate ships 400 and 700; every mono surface uses the true bold cut." }
   },
   "tracking": {
     "tight": { "$value": "-0.03em", "$type": "dimension" },
