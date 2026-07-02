@@ -1,0 +1,8 @@
+# dependencies
+node_modules/
+
+# compiled tokens (regenerated from tokens/*.tokens.json on every build)
+build/
+
+# os
+.DS_Store

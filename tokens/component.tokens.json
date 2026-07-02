@@ -1,0 +1,6 @@
+{
+  "button": {
+    "background": { "$value": "{color.foreground}", "$type": "color", "$description": "Solid control fill. References a semantic token, never a primitive." },
+    "foreground": { "$value": "{color.foreground-inverse}", "$type": "color", "$description": "Label on a solid control." }
+  }
+}

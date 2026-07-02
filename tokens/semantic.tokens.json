@@ -1,0 +1,13 @@
+{
+  "color": {
+    "surface": { "$value": "{gray.050}", "$type": "color", "$description": "Default page surface, warm paper." },
+    "surface-inverse": { "$value": "{gray.950}", "$type": "color", "$description": "Inverted surface, cool ink. Emphasis is inversion." },
+    "foreground": { "$value": "{gray.950}", "$type": "color", "$description": "Default text and marks." },
+    "foreground-inverse": { "$value": "{gray.050}", "$type": "color", "$description": "Text on an inverted surface." },
+    "muted": { "$value": "{gray.600}", "$type": "color", "$description": "Secondary text on paper." },
+    "muted-inverse": { "$value": "{gray.400}", "$type": "color", "$description": "Secondary text on an inverted surface." },
+    "line": { "$value": "{gray.200}", "$type": "color", "$description": "Hairline rules and borders." },
+    "line-strong": { "$value": "{gray.400}", "$type": "color", "$description": "A heavier line or a quiet decorative mark." },
+    "hover-surface": { "$value": "{gray.100}", "$type": "color", "$description": "Calm hover wash on paper." }
+  }
+}

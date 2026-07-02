@@ -1,0 +1,55 @@
+{
+  "gray": {
+    "000": { "$value": "#FFFFFF", "$type": "color", "$description": "Pure white." },
+    "050": { "$value": "#F6F5F2", "$type": "color", "$description": "Paper, kept slightly warm on purpose." },
+    "100": { "$value": "#ECEAE5", "$type": "color", "$description": "Warm off-white, hover surface." },
+    "200": { "$value": "#D8D5CE", "$type": "color", "$description": "Hairline lines." },
+    "400": { "$value": "#A8A5A0", "$type": "color", "$description": "Strong line, muted on ink." },
+    "600": { "$value": "#6B6966", "$type": "color", "$description": "Muted foreground." },
+    "800": { "$value": "#2A2A2C", "$type": "color", "$description": "Near ink." },
+    "950": { "$value": "#0B0B0D", "$type": "color", "$description": "Ink, kept slightly cool on purpose." }
+  },
+  "size": {
+    "050": { "$value": "0.78rem", "$type": "dimension", "$description": "Caption, fine labels." },
+    "075": { "$value": "0.82rem", "$type": "dimension", "$description": "Mono labels." },
+    "100": { "$value": "0.875rem", "$type": "dimension" },
+    "200": { "$value": "1rem", "$type": "dimension" },
+    "300": { "$value": "1.25rem", "$type": "dimension" },
+    "400": { "$value": "1.625rem", "$type": "dimension" },
+    "500": { "$value": "2.25rem", "$type": "dimension" },
+    "600": { "$value": "3.25rem", "$type": "dimension" },
+    "700": { "$value": "4.75rem", "$type": "dimension" }
+  },
+  "space": {
+    "100": { "$value": "0.25rem", "$type": "dimension" },
+    "200": { "$value": "0.5rem", "$type": "dimension" },
+    "300": { "$value": "0.75rem", "$type": "dimension" },
+    "400": { "$value": "1rem", "$type": "dimension" },
+    "500": { "$value": "1.5rem", "$type": "dimension" },
+    "600": { "$value": "2rem", "$type": "dimension" },
+    "700": { "$value": "3rem", "$type": "dimension" },
+    "800": { "$value": "4rem", "$type": "dimension" },
+    "900": { "$value": "6rem", "$type": "dimension" },
+    "1000": { "$value": "8rem", "$type": "dimension" }
+  },
+  "font": {
+    "sans": { "$value": "'N27', ui-sans-serif, system-ui, sans-serif", "$type": "fontFamily", "$description": "The human voice." },
+    "mono": { "$value": "'JetBrains Mono', ui-monospace, monospace", "$type": "fontFamily", "$description": "The machine voice." }
+  },
+  "tracking": {
+    "tight": { "$value": "-0.03em", "$type": "dimension" },
+    "snug": { "$value": "0.02em", "$type": "dimension", "$description": "A touch of tracking on tabular and label mono." },
+    "normal": { "$value": "0em", "$type": "dimension" },
+    "wide": { "$value": "0.04em", "$type": "dimension", "$description": "Slightly opened tracking on small mono controls." },
+    "loose": { "$value": "0.14em", "$type": "dimension" }
+  },
+  "leading": {
+    "tight": { "$value": "1.0", "$type": "number" },
+    "snug": { "$value": "1.16", "$type": "number" },
+    "normal": { "$value": "1.55", "$type": "number" }
+  },
+  "radius": { "$value": "2px", "$type": "dimension", "$description": "Sharp by default, one token, applied consistently." },
+  "layout": {
+    "max": { "$value": "82.5rem", "$type": "dimension", "$description": "Max content measure, the page shell width." }
+  }
+}

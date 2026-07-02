@@ -1,0 +1,12 @@
+{
+  "name": "tokens-to-agents-public",
+  "version": "1.0.0",
+  "description": "The public canon of tokenstoagents.ai. The tokens compile in one step through Style Dictionary.",
+  "type": "module",
+  "scripts": {
+    "build": "style-dictionary build --config style-dictionary.config.js"
+  },
+  "devDependencies": {
+    "style-dictionary": "^4.4.0"
+  }
+}
