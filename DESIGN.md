@@ -21,22 +21,24 @@ type:
     family: N27
     foundry: atipo
     weights:
-      regular: 400
+      light: 300 (display only, above 40px, never body)
+      regular: 400 (plus the regular italic for emphasis inside body copy)
       medium: 500
       bold: 600 700 (declared as a range, both map to Bold)
+    body: size.200, 1.0625rem (17px), at leading.normal 1.7
     fallback: ui-sans-serif, system-ui, sans-serif
     license: licensed for this website only, not redistributable, excluded from the public repo
+    consumed-as: font token only (--font-family-sans), never a hardcoded family
   machine-voice:
-    family: Triplicate Code
-    foundry: MB Type
+    family: Basier Square Mono
+    foundry: atipo
     weights:
-      regular: 400 (shipped, unused on surfaces)
-      bold: 700
-    usage: always bold; every mono surface consumes the weight.mono token (700)
-    size-adjust: 108% on both faces, so the mono x-height sits level with N27
+      regular: 400 (the only cut shipped)
+    usage: code, token names and values, file paths, and structured-data excerpts, at 0.9em against the surrounding sans
+    synthesis: font-synthesis disabled on every mono surface, so a weight the family does not ship is never faked
     fallback: ui-monospace, monospace
     license: licensed for this website, not redistributable, excluded from the public repo
-    consumed-as: font token only (--font-mono), never a hardcoded family
+    consumed-as: font token only (--font-family-mono), never a hardcoded family
   wordmark:
     family: N27
     weight: 500 (medium)
@@ -65,9 +67,9 @@ The site is true monochrome: a single grayscale ramp from a warm paper to a cool
 
 ## Two voices, one answer each
 
-The human voice is N27, licensed from atipo. It carries the argument: prose, headlines, annotations. Weights are 400 for body, 500 for medium, and a 600 to 700 range that both resolve to Bold for display. The wordmark ("tokens", an arrow, "agents", all lowercase) is set in this voice at medium (500), in the header and the footer alike. Two mono-adjacent home blocks also belong to this voice by decision: the signature trail paragraph and the chain sublabels, both N27 400.
+The human voice is N27, licensed from atipo. It carries the argument: prose, headlines, annotations, labels, and UI chrome. Weights carry the hierarchy: Bold (700, with 600 declared into the same cut) for page titles and primary headings, Medium (500) for subheads, nav, labels, and chrome, Regular (400) for body copy at 17px with 1.7 leading, and Light (300) reserved for display sizes above 40px, never for body. The wordmark ("tokens", an arrow, "agents", all lowercase) is set in this voice at medium (500), in the header and the footer alike. The layer numbers and station labels on the signature belong to this voice as chrome; only the values they point at are machine content.
 
-The machine voice is Triplicate Code, licensed from MB Type. It carries everything that is, or represents, structured data: the layer numbers, token names, code, labels, metadata. It always renders bold: every mono surface consumes the weight.mono token (700), the true bold cut, never the 400. Both faces declare size-adjust 108% so the mono x-height sits level with N27 at the same size token. It is consumed only through the font token, never as a hardcoded family, so a future swap propagates in one edit.
+The machine voice is Basier Square Mono, licensed from atipo, shipped in Regular (400) only. It carries everything that is, or represents, structured data: code, token names and values, file paths, and structured-data excerpts, set at 0.9em against the surrounding sans. The two faces share the same cap height and x-height, so no size-adjust is needed; the 0.9em compensates for the mono's wide set. font-synthesis is off on every mono surface, so a weight the family does not ship is never faked. It is consumed only through the font.family.mono token, never as a hardcoded family, so a future swap propagates in one edit.
 
 There are no candidates and no alternatives in this file on purpose. Earlier drafts listed options, three files disagreed, and an agent caught the conflict mid-build. This file is the fix. One canonical answer per decision, every earlier draft superseded.
 
@@ -91,10 +93,10 @@ Semantic HTML with a single h1 per page and a skip link. Visible keyboard focus 
 
 ## Licensing note for the public repo
 
-N27 is licensed from atipo for this website, and Triplicate Code is licensed from MB Type for this website. Neither license permits redistribution, so the font files are excluded from the public repository and the repo builds on the fallback stacks. That exclusion is care, not omission, and it is stated in the README so nobody mistakes it for a missing asset.
+N27 and Basier Square Mono are both licensed from atipo for this website. Neither license permits redistribution, so the font files are excluded from the public repository and the repo builds on the fallback stacks. That exclusion is care, not omission, and it is stated in the README so nobody mistakes it for a missing asset.
 
 ## How this file is governed
 
 This is a layer 04 file: runtime context, the intent agents execute against. It changes by decision, not by accumulation. When a decision changes, this file is edited in the same commit as the tokens it governs, the date below moves, and whatever it supersedes stays superseded. If you are an agent reading this: build to the front matter, keep every value a token reference, and when you find a conflict between this file and anything else in the repo except tokens.json, this file wins and the conflict is a bug worth reporting.
 
-Canonical as of 2026-07-02. Curated by Ryan Payne.
+Canonical as of 2026-07-03. Curated by Ryan Payne.

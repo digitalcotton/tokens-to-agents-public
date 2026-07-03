@@ -28,7 +28,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Fonts
 
-The typefaces N27 (atipo foundry) and Triplicate (MB Type) are commercially licensed to this website and are not included in this repository. They are not redistributable under any license here. The repository builds on the declared fallback stacks.
+The typefaces N27 and Basier Square Mono (both atipo foundry) are commercially licensed to this website and are not included in this repository. They are not redistributable under any license here. The repository builds on the declared fallback stacks.
 
 ## Copyright
 

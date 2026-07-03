@@ -54,7 +54,7 @@ A note on single source of truth, since the site argues for exactly that. The dr
 
 ## Fonts
 
-The two type voices, N27 (human, licensed from atipo) and Triplicate Code (machine, licensed from MB Type), are licensed for this website only. Neither license permits redistribution, so the font files are excluded from this repository and it builds on the fallback stacks (`ui-sans-serif, system-ui, sans-serif` and `ui-monospace, monospace`). That exclusion is care, not omission. See `DESIGN.md` for the full type decision.
+The two type voices, N27 (human) and Basier Square Mono (machine), are both licensed from atipo for this website only. Neither license permits redistribution, so the font files are excluded from this repository and it builds on the fallback stacks (`ui-sans-serif, system-ui, sans-serif` and `ui-monospace, monospace`). That exclusion is care, not omission. See `DESIGN.md` for the full type decision.
 
 ## Kickoff sequence
 

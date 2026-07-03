@@ -12,7 +12,7 @@ Emphasis is inversion, never a second color. A block that needs weight flips fro
 
 ### The human and the machine, as two voices
 
-Type carries a duality that mirrors the subject. A characterful sans is the human voice, the argument, the prose, the point of view. A designed monospace is the machine voice, and it carries the layer numbers 01 to 04, the token names, the code, and the labels. The two voices sit side by side the way `DESIGN.md` pairs human prose with machine-readable front matter, and the way the whole thesis pairs a person writing intent with a machine reading structure. The form states the argument before a word is read.
+Type carries a duality that mirrors the subject. A characterful sans is the human voice, the argument, the prose, the point of view. A designed monospace is the machine voice, and it carries the token names and values, the code, the file paths, and the structured-data excerpts; the layer numbers and labels around them are the human voice's chrome. The two voices sit side by side the way `DESIGN.md` pairs human prose with machine-readable front matter, and the way the whole thesis pairs a person writing intent with a machine reading structure. The form states the argument before a word is read.
 
 Use the sans for everything a human is meant to absorb. Use the mono for everything that is, or represents, structured data. Never blur the two, because the separation is the meaning.
 
@@ -28,7 +28,7 @@ This is a site about machine-readable, structured, token-driven design. So the s
 
 A single block to re-establish the whole art direction in one shot. Paste it, then name the screen.
 
-> Design and build this screen for a public learning hub about the four-layer tokens-to-agents stack. The aesthetic is true monochrome: a warm-paper to cool-ink grayscale ramp with no chromatic accent, where emphasis is inversion only, surfaces flipping ink-on-paper to paper-on-ink. Two type voices: a characterful sans, not Inter, Roboto, or Helvetica, for the human argument, and a designed monospace, not Courier, for the machine voice that carries the layer numbers, token names, code, and labels. Layout is left-aligned and asymmetric on generous paper, with a visible modular grid treated as real structure, and never a centered hero. All motion is concentrated in one place, the kinetic stack signature; everything else is static or uses the smallest calm transition. Every visual value comes from a DTCG design token through var(--token-name), with no raw hex, pixel, or font literals. Pristine source is part of the deliverable. Never use em dashes or en dashes; use commas, colons, parentheses, or periods. Honor prefers-reduced-motion, visible keyboard focus, semantic HTML, and mobile. Pull exact values from docs/visual-framework.md and follow the drift alarms in AGENTS.md.
+> Design and build this screen for a public learning hub about the four-layer tokens-to-agents stack. The aesthetic is true monochrome: a warm-paper to cool-ink grayscale ramp with no chromatic accent, where emphasis is inversion only, surfaces flipping ink-on-paper to paper-on-ink. Two type voices: a characterful sans, not Inter, Roboto, or Helvetica, for the human argument and its chrome, and a designed monospace, not Courier, for the machine voice that carries token names and values, code, and file paths. Layout is left-aligned and asymmetric on generous paper, with a visible modular grid treated as real structure, and never a centered hero. All motion is concentrated in one place, the kinetic stack signature; everything else is static or uses the smallest calm transition. Every visual value comes from a DTCG design token through var(--token-name), with no raw hex, pixel, or font literals. Pristine source is part of the deliverable. Never use em dashes or en dashes; use commas, colons, parentheses, or periods. Honor prefers-reduced-motion, visible keyboard focus, semantic HTML, and mobile. Pull exact values from docs/visual-framework.md and follow the drift alarms in AGENTS.md.
 
 ## The signature storyboard
 
@@ -40,7 +40,7 @@ The four-layer stack resolving: a single value travels from a primitive token, i
 
 ### The stage
 
-The exposed modular grid is faintly present, the baseline lines treated as real structure. Four stations sit left to right along a single horizontal rail, one baseline line acting as the track. Each station is labeled in the mono voice with its number and name:
+The exposed modular grid is faintly present, the baseline lines treated as real structure. Four stations sit left to right along a single horizontal rail, one baseline line acting as the track. Each station is labeled with its number and name in the human voice's label register, with the token value beneath in the machine voice:
 
 `01 PRIMITIVE`   `02 SEMANTIC`   `03 COMPONENT`   `04 RENDERED`
 

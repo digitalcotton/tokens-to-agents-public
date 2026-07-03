@@ -47,7 +47,7 @@ Port each component named in `HANDOFF.md`, token-driven, props as the manifest s
 
 ### The audio player
 
-There is no embeddable NotebookLM player, so this is a custom element in the machine voice, styled to the system as the Design artifact specified. Carry that design faithfully: a sharp-cornered panel bordered in `color.line`, no drop shadow; inversion to signal playing; one sharp transport control morphing play to pause by transform; progress as a row of thin baseline-aligned ticks, played in ink and remaining in line-gray; a single thin caret playhead; a tabular mono time readout; and a mono speed toggle cycling 1x, 1.25x, 1.5x, 2x. Source is `audioSrc` per pillar. Fully keyboard-operable with labeled controls. transform and opacity only.
+There is no embeddable NotebookLM player, so this is a custom element in the machine voice, styled to the system as the Design artifact specified. Carry that design faithfully: a sharp-cornered panel bordered in `color.line`, no drop shadow; inversion to signal playing; one sharp transport control morphing play to pause by transform; progress as a row of thin baseline-aligned ticks, played in ink and remaining in line-gray; a single thin caret playhead; a tabular time readout in the label register; and a speed toggle cycling 1x, 1.25x, 1.5x, 2x. Source is `audioSrc` per pillar. Fully keyboard-operable with labeled controls. transform and opacity only.
 
 ## 4. Routes and pages
 
@@ -96,7 +96,7 @@ Requirements:
 - Component outlines from the system (button silhouettes, card frames) drift on a slower parallax layer behind the chips, rotating gently in line-gray, for depth and the trippy layered feel.
 - The grid destabilizes: the baseline grid tilts, skews, or ripples slowly behind everything.
 - Monochrome holds, and this is the one identity rule that does not break even here: no accent color. Collisions may flash a brief inversion, a chip or a wall edge flipping ink and paper on impact, which keeps the chaos inside the system's own emphasis language and gives it the pop a color would, without a color.
-- A still anchor. Amid all the motion, one calm, sharp, perfectly still element: a line of mono text and a single sharp link home, for example "404. You are off the stack." with an inline link "Return to the map." The stillness of the exit against the chaos is the composition. The visitor is never actually lost.
+- A still anchor. Amid all the motion, one calm, sharp, perfectly still element: a line of label-register text and a single sharp link home, for example "404. You are off the stack." with an inline link "Return to the map." The stillness of the exit against the chaos is the composition. The visitor is never actually lost.
 - Make it a toy if it stays tasteful: the cursor can push the chips, or a click can fling or spawn one. Optional, and it must not get annoying.
 - Reduced motion: `prefers-reduced-motion` gets a composed static tableau, chips frozen mid-scatter, numerals solid, and the exit link present. The idea reads with no continuous motion.
 - Performance: cap the body count, pause the simulation when the tab is hidden, and keep it off the main thread where possible. It must not pin the CPU.
@@ -107,7 +107,7 @@ A full pass across every screen: the signature and the 404 field both work on mo
 
 ## 10. Optional: reading mode
 
-A quiet opt-in reading-mode toggle, for dyslexia comfort and long-form reading: slightly larger body, looser spacing, and mono labels rendered sentence case rather than all caps while active. Off by default, remembered if toggled. Worth doing, not required for launch.
+A quiet opt-in reading-mode toggle, for dyslexia comfort and long-form reading: slightly larger body, looser spacing, and uppercase labels rendered sentence case while active. Off by default, remembered if toggled. Worth doing, not required for launch.
 
 ## Definition of done
 
