@@ -61,3 +61,8 @@ The thesis is fact-checked. In any site copy, do not reintroduce these errors:
 - The three spec-driven development maturity levels, spec-first, spec-anchored, and spec-as-source, are Birgitta Böckeler's, attributed to her, not to Martin Fowler.
 - Keep the honest soft spots in. The honesty is part of the credibility.
 See `docs/thesis.md` for the full, vetted version.
+
+---
+
+Part of the public canon of tokenstoagents.ai · github.com/digitalcotton/tokens-to-agents-public
+(c) 2026 Ryan Payne · CC BY-NC-ND 4.0 · attribution required, no derivatives, no commercial use · full terms in LICENSE.md

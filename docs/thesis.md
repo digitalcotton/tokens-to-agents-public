@@ -51,3 +51,8 @@ I want to be honest about the soft spot, because the people closest to this are.
 The direction is clear even if the timeline is not. Self-healing loops and agentic IDEs like AWS Kiro, which is already turning roughly forty-hour builds into about eight hours of human effort, are pulling this from experiment toward standard practice. Neutral governance through the Agentic AI Foundation and emerging spec registries point at a world where, increasingly, the spec is the prompt and the code is just its current output. We are not all the way there. But the architects who get there first are the ones treating their design system as infrastructure today, not documentation.
 
 That is the bet I am making, and it is the one I am building on.
+
+---
+
+Part of the public canon of tokenstoagents.ai · github.com/digitalcotton/tokens-to-agents-public
+(c) 2026 Ryan Payne · CC BY-NC-ND 4.0 · attribution required, no derivatives, no commercial use · full terms in LICENSE.md

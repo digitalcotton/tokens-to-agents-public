@@ -122,3 +122,8 @@ The build is finished when:
 - Accessibility and responsive pass clean, and reduced motion is honored on the signature, the player, and the 404.
 - No em dashes or en dashes anywhere. The drift alarms hold on every screen except the intentional 404.
 - The homepage and the design language are unchanged from the approved Design artifact.
+
+---
+
+Part of the public canon of tokenstoagents.ai · github.com/digitalcotton/tokens-to-agents-public
+(c) 2026 Ryan Payne · CC BY-NC-ND 4.0 · attribution required, no derivatives, no commercial use · full terms in LICENSE.md

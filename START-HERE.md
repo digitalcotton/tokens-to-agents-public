@@ -91,3 +91,8 @@ These facts are fact-checked and fragile, and the common version of each is wron
 ## Definition of done
 
 See `PRODUCTION-BUILD-SPEC.md`, "Definition of done". In short: tokens live in DTCG JSON and compile through Style Dictionary with nothing hardcoded, all four pillars are populated from `thesis.md` with all four on-ramps wired, every `HANDOFF.md` component is ported and token-driven, real routes and prev/next and the carried view transition work, About and 404 exist, the production layer (titles, meta, favicon, og:image, canonical, sitemap, robots) is in place, accessibility and reduced motion pass, no em or en dashes anywhere, and the homepage and design language are unchanged from the approved artifact.
+
+---
+
+Part of the public canon of tokenstoagents.ai · github.com/digitalcotton/tokens-to-agents-public
+(c) 2026 Ryan Payne · CC BY-NC-ND 4.0 · attribution required, no derivatives, no commercial use · full terms in LICENSE.md

@@ -9,3 +9,8 @@ Three rules that always apply, restated here so they are never missed:
 3. Pristine naming and structure are a feature. Write the repository so it reads as deliberate to anyone who opens it.
 
 Everything else, the design concept, build order, drift alarms, quality floor, stack, and factual guardrails, is in `AGENTS.md`.
+
+---
+
+Part of the public canon of tokenstoagents.ai · github.com/digitalcotton/tokens-to-agents-public
+(c) 2026 Ryan Payne · CC BY-NC-ND 4.0 · attribution required, no derivatives, no commercial use · full terms in LICENSE.md

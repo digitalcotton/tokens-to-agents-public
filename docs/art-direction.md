@@ -70,3 +70,8 @@ A row of panels that fade in one by one communicates "four steps," which is deco
 ## The drift alarms
 
 The full list lives in `AGENTS.md` and is the canonical version. The reasoning behind all of them is one thing: every item on that list is a default, and defaults are exactly what a model reaches for when left to average. A centered hero, Inter, a soft gradient, rounded cards with drop shadows, fade-in-on-scroll, buzzword copy: these are the resting state of a generated site. The alarms exist because this site has a specific point of view, and a point of view is the opposite of a default. When something feels safe and familiar, that is usually the alarm, not the solution.
+
+---
+
+Part of the public canon of tokenstoagents.ai · github.com/digitalcotton/tokens-to-agents-public
+(c) 2026 Ryan Payne · CC BY-NC-ND 4.0 · attribution required, no derivatives, no commercial use · full terms in LICENSE.md

@@ -100,3 +100,8 @@ N27 and Basier Square Mono are both licensed from atipo for this website. Neithe
 This is a layer 04 file: runtime context, the intent agents execute against. It changes by decision, not by accumulation. When a decision changes, this file is edited in the same commit as the tokens it governs, the date below moves, and whatever it supersedes stays superseded. If you are an agent reading this: build to the front matter, keep every value a token reference, and when you find a conflict between this file and anything else in the repo except tokens.json, this file wins and the conflict is a bug worth reporting.
 
 Canonical as of 2026-07-03. Curated by Ryan Payne.
+
+---
+
+Part of the public canon of tokenstoagents.ai · github.com/digitalcotton/tokens-to-agents-public
+(c) 2026 Ryan Payne · CC BY-NC-ND 4.0 · attribution required, no derivatives, no commercial use · full terms in LICENSE.md
