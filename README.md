@@ -73,6 +73,6 @@ Never use em dashes or en dashes, in the code or in any copy. The skills and `AG
 
 ## License
 
-Source-available, not open source. The written work and tokens are CC BY-NC-ND 4.0, the build configuration is MIT, and the fonts are commercially licensed and excluded. See `LICENSE.md`. For permissions beyond the license: ryan@digitalcotton.com.
+Source-available, not open source. The written work and tokens are CC BY-NC-ND 4.0, the build configuration is MIT, and the fonts are commercially licensed and excluded. See `LICENSE.md`. For permissions beyond the license: info@digitalcotton.com.
 
 From the public canon of tokenstoagents.ai · (c) 2026 Ryan Payne · CC BY-NC-ND 4.0 · see LICENSE.md

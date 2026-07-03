@@ -12,7 +12,7 @@ All written and creative work in this repository, including but not limited to R
 
 That means: you may share it with attribution to Ryan Payne and a link back to this repository. You may not use it for commercial purposes. You may not distribute modified versions. Full terms: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
 
-For permissions beyond this license, including commercial or organizational use, get in touch: ryan@digitalcotton.com
+For permissions beyond this license, including commercial or organizational use, get in touch: info@digitalcotton.com
 
 ## The build configuration: MIT
 
