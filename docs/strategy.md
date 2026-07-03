@@ -1,3 +1,6 @@
+Part of the public canon of tokenstoagents.ai · github.com/digitalcotton/tokens-to-agents-public
+(c) 2026 Ryan Payne · CC BY-NC-ND 4.0 · attribution required, no derivatives, no commercial use · full terms in LICENSE.md
+
 # The Layered Learning Strategy
 
 One document, two readers. Read it first to confirm it captures the strategy we built. Then it goes to the build agent as the thing to build to, so the strategy is explained once and never flattened again.
@@ -37,7 +40,4 @@ The site is the owned, branded front door and the point of view. Behind it, the 
 
 Build to this whole strategy, not to a flat page. The site is a layered learning environment. Concretely, that means: the map is the centerpiece and the navigation, not decoration. Every pillar carries all four on-ramps, and none is dropped because it is inconvenient to implement. The thesis is the spine, so the pillars read as one connected argument. And the corpus behind it all is the NotebookLM hub, which the summaries, audio, and query link serve. If a decision would reduce the site to a list of links with some content attached, it is the wrong decision.
 
----
-
-Part of the public canon of tokenstoagents.ai · github.com/digitalcotton/tokens-to-agents-public
-(c) 2026 Ryan Payne · CC BY-NC-ND 4.0 · attribution required, no derivatives, no commercial use · full terms in LICENSE.md
+From the public canon of tokenstoagents.ai · (c) 2026 Ryan Payne · CC BY-NC-ND 4.0 · see LICENSE.md

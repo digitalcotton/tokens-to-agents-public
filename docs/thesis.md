@@ -1,3 +1,6 @@
+Part of the public canon of tokenstoagents.ai · github.com/digitalcotton/tokens-to-agents-public
+(c) 2026 Ryan Payne · CC BY-NC-ND 4.0 · attribution required, no derivatives, no commercial use · full terms in LICENSE.md
+
 # Tokens to Agents: A Working Thesis on the AI-Native Design-to-Code Stack
 
 I run an enterprise design system, and I ship production software built by AI agents. That combination is rare right now, and it puts me on both ends of a shift most teams are only seeing one side of. The design system world is realizing its work has a new consumer. The engineering world is realizing that consumer needs more than a clever prompt. This is my working thesis on where those two realizations meet.
@@ -52,7 +55,4 @@ The direction is clear even if the timeline is not. Self-healing loops and agent
 
 That is the bet I am making, and it is the one I am building on.
 
----
-
-Part of the public canon of tokenstoagents.ai · github.com/digitalcotton/tokens-to-agents-public
-(c) 2026 Ryan Payne · CC BY-NC-ND 4.0 · attribution required, no derivatives, no commercial use · full terms in LICENSE.md
+From the public canon of tokenstoagents.ai · (c) 2026 Ryan Payne · CC BY-NC-ND 4.0 · see LICENSE.md

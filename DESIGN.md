@@ -3,6 +3,9 @@
 # The canonical design file. One answer for type, color, and concept.
 # Values: tokens.json is the single source of truth for every value.
 # This front matter carries the identity decisions; it does not duplicate the token set.
+canonical-home: tokenstoagents.ai · github.com/digitalcotton/tokens-to-agents-public
+copyright: (c) 2026 Ryan Payne
+license: CC BY-NC-ND 4.0 · attribution required, no derivatives, no commercial use · full terms in LICENSE.md
 status: canonical
 supersedes:
   - docs/visual-framework.md
@@ -101,7 +104,4 @@ This is a layer 04 file: runtime context, the intent agents execute against. It 
 
 Canonical as of 2026-07-03. Curated by Ryan Payne.
 
----
-
-Part of the public canon of tokenstoagents.ai · github.com/digitalcotton/tokens-to-agents-public
-(c) 2026 Ryan Payne · CC BY-NC-ND 4.0 · attribution required, no derivatives, no commercial use · full terms in LICENSE.md
+From the public canon of tokenstoagents.ai · (c) 2026 Ryan Payne · CC BY-NC-ND 4.0 · see LICENSE.md

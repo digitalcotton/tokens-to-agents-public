@@ -1,3 +1,8 @@
+<!--
+Part of the public canon of tokenstoagents.ai · github.com/digitalcotton/tokens-to-agents-public
+(c) 2026 Ryan Payne · CC BY-NC-ND 4.0 · attribution required, no derivatives, no commercial use · full terms in LICENSE.md
+-->
+
 # Tokens-to-Agents Site Scaffold
 
 A starting scaffold for building the learning hub in Claude Code. It carries the agent context, a set of project skills, and the visual framework, so a Claude Code session begins grounded in every decision instead of re-deriving them.
@@ -70,7 +75,4 @@ Never use em dashes or en dashes, in the code or in any copy. The skills and `AG
 
 Source-available, not open source. The written work and tokens are CC BY-NC-ND 4.0, the build configuration is MIT, and the fonts are commercially licensed and excluded. See `LICENSE.md`. For permissions beyond the license: ryan@digitalcotton.com.
 
----
-
-Part of the public canon of tokenstoagents.ai · github.com/digitalcotton/tokens-to-agents-public
-(c) 2026 Ryan Payne · CC BY-NC-ND 4.0 · attribution required, no derivatives, no commercial use · full terms in LICENSE.md
+From the public canon of tokenstoagents.ai · (c) 2026 Ryan Payne · CC BY-NC-ND 4.0 · see LICENSE.md

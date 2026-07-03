@@ -1,3 +1,8 @@
+<!--
+Part of the public canon of tokenstoagents.ai · github.com/digitalcotton/tokens-to-agents-public
+(c) 2026 Ryan Payne · CC BY-NC-ND 4.0 · attribution required, no derivatives, no commercial use · full terms in LICENSE.md
+-->
+
 # AGENTS.md
 
 Canonical agent instructions for this repository. Read this first. Detailed procedures live in the skills under `.claude/skills/` and load on demand. The context documents under `docs/` are the source of truth for what this site is and what it says.
@@ -62,7 +67,4 @@ The thesis is fact-checked. In any site copy, do not reintroduce these errors:
 - Keep the honest soft spots in. The honesty is part of the credibility.
 See `docs/thesis.md` for the full, vetted version.
 
----
-
-Part of the public canon of tokenstoagents.ai · github.com/digitalcotton/tokens-to-agents-public
-(c) 2026 Ryan Payne · CC BY-NC-ND 4.0 · attribution required, no derivatives, no commercial use · full terms in LICENSE.md
+From the public canon of tokenstoagents.ai · (c) 2026 Ryan Payne · CC BY-NC-ND 4.0 · see LICENSE.md

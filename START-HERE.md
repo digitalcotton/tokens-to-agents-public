@@ -1,3 +1,8 @@
+<!--
+Part of the public canon of tokenstoagents.ai · github.com/digitalcotton/tokens-to-agents-public
+(c) 2026 Ryan Payne · CC BY-NC-ND 4.0 · attribution required, no derivatives, no commercial use · full terms in LICENSE.md
+-->
+
 # Tokens-to-Agents Learning Hub: build handoff
 
 This folder is the canon: a private git repo (tokens-to-agents-canon) that publishes its sanitized allowlist to the public mirror. After editing any canon document, commit here, then run `./sync-public.sh`; the pre-push hook (`.githooks/pre-push`, wired via core.hooksPath) blocks a push while the mirror is behind.
@@ -92,7 +97,4 @@ These facts are fact-checked and fragile, and the common version of each is wron
 
 See `PRODUCTION-BUILD-SPEC.md`, "Definition of done". In short: tokens live in DTCG JSON and compile through Style Dictionary with nothing hardcoded, all four pillars are populated from `thesis.md` with all four on-ramps wired, every `HANDOFF.md` component is ported and token-driven, real routes and prev/next and the carried view transition work, About and 404 exist, the production layer (titles, meta, favicon, og:image, canonical, sitemap, robots) is in place, accessibility and reduced motion pass, no em or en dashes anywhere, and the homepage and design language are unchanged from the approved artifact.
 
----
-
-Part of the public canon of tokenstoagents.ai · github.com/digitalcotton/tokens-to-agents-public
-(c) 2026 Ryan Payne · CC BY-NC-ND 4.0 · attribution required, no derivatives, no commercial use · full terms in LICENSE.md
+From the public canon of tokenstoagents.ai · (c) 2026 Ryan Payne · CC BY-NC-ND 4.0 · see LICENSE.md

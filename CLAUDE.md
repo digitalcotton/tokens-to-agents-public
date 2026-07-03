@@ -1,3 +1,8 @@
+<!--
+Part of the public canon of tokenstoagents.ai · github.com/digitalcotton/tokens-to-agents-public
+(c) 2026 Ryan Payne · CC BY-NC-ND 4.0 · attribution required, no derivatives, no commercial use · full terms in LICENSE.md
+-->
+
 # CLAUDE.md
 
 This repository uses `AGENTS.md` as its canonical agent instruction file. Read `AGENTS.md` first, then load the relevant skill from `.claude/skills/` for the task at hand.
@@ -10,7 +15,4 @@ Three rules that always apply, restated here so they are never missed:
 
 Everything else, the design concept, build order, drift alarms, quality floor, stack, and factual guardrails, is in `AGENTS.md`.
 
----
-
-Part of the public canon of tokenstoagents.ai · github.com/digitalcotton/tokens-to-agents-public
-(c) 2026 Ryan Payne · CC BY-NC-ND 4.0 · attribution required, no derivatives, no commercial use · full terms in LICENSE.md
+From the public canon of tokenstoagents.ai · (c) 2026 Ryan Payne · CC BY-NC-ND 4.0 · see LICENSE.md
