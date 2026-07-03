@@ -1,6 +1,8 @@
 # Tokens-to-Agents Learning Hub: build handoff
 
-This folder is the complete input bundle for the Astro production build. Open it in Claude Code and execute `PRODUCTION-BUILD-SPEC.md`. Everything that spec calls "the scaffold" and "the Claude Design artifact" is here, in one place, ready to run.
+This folder is the canon: a private git repo (tokens-to-agents-canon) that publishes its sanitized allowlist to the public mirror. After editing any canon document, commit here, then run `./sync-public.sh`; the pre-push hook (`.githooks/pre-push`, wired via core.hooksPath) blocks a push while the mirror is behind.
+
+This folder is also the complete input bundle for the Astro production build. Open it in Claude Code and execute `PRODUCTION-BUILD-SPEC.md`. Everything that spec calls "the scaffold" and "the Claude Design artifact" is here, in one place, ready to run.
 
 ## The two phases, and why this is a handoff
 
