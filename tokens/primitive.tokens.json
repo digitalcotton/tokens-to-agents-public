@@ -48,7 +48,7 @@
     "bold": { "$value": "700", "$type": "fontWeight", "$description": "Page titles and primary headings." }
   },
   "tracking": {
-    "tight": { "$value": "-0.03em", "$type": "dimension" },
+    "tight": { "$value": "-0.02em", "$type": "dimension" },
     "snug": { "$value": "0.02em", "$type": "dimension", "$description": "A touch of tracking on small numeric and label chrome." },
     "normal": { "$value": "0em", "$type": "dimension" },
     "wide": { "$value": "0.04em", "$type": "dimension", "$description": "Slightly opened tracking on small controls." },
@@ -59,6 +59,7 @@
   },
   "leading": {
     "tight": { "$value": "1.0", "$type": "number" },
+    "display": { "$value": "1.05", "$type": "number", "$description": "Multi-line display headings. A hair of air over tight so wrapped lines do not collide." },
     "snug": { "$value": "1.16", "$type": "number" },
     "normal": { "$value": "1.7", "$type": "number", "$description": "Body leading. N27 is display-leaning, so long-form reading gets extra air." }
   },
