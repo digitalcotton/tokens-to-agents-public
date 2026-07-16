@@ -30,7 +30,7 @@ type:
       bold: 600 700 (declared as a range, both map to Bold)
     body: size.200, 1.0625rem (17px), at leading.normal 1.7
     fallback: ui-sans-serif, system-ui, sans-serif
-    license: licensed for this website only, not redistributable, excluded from the public repo
+    license: licensed for tokenstoagents.ai and tokenstoagents.com, not redistributable, excluded from the public repo
     consumed-as: font token only (--font-family-sans), never a hardcoded family
   machine-voice:
     family: Basier Square Mono
@@ -40,7 +40,7 @@ type:
     usage: code, token names and values, file paths, and structured-data excerpts, at 0.9em against the surrounding sans
     synthesis: font-synthesis disabled on every mono surface, so a weight the family does not ship is never faked
     fallback: ui-monospace, monospace
-    license: licensed for this website, not redistributable, excluded from the public repo
+    license: licensed for tokenstoagents.ai and tokenstoagents.com, not redistributable, excluded from the public repo
     consumed-as: font token only (--font-family-mono), never a hardcoded family
   wordmark:
     family: N27
@@ -96,7 +96,7 @@ Semantic HTML with a single h1 per page and a skip link. Visible keyboard focus 
 
 ## Licensing note for the public repo
 
-N27 and Basier Square Mono are both licensed from atipo for this website. Neither license permits redistribution, so the font files are excluded from the public repository and the repo builds on the fallback stacks. That exclusion is care, not omission, and it is stated in the README so nobody mistakes it for a missing asset.
+N27 and Basier Square Mono are both licensed from atipo, covering tokenstoagents.ai and tokenstoagents.com. Neither license permits redistribution, so the font files are excluded from the public repository and the repo builds on the fallback stacks. That exclusion is care, not omission, and it is stated in the README so nobody mistakes it for a missing asset.
 
 ## How this file is governed
 
